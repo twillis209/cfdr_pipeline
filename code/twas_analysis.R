@@ -2,10 +2,14 @@
 ##                                                                       ##
 ## Accurate error control in high dimensional association testing using  ##
 ##  conditional false discovery rates                                    ##
+##                                                                       ##
 ## Analysis of TWAS data in breast and ovarian cancer                    ##
-## James Liley and Chris Wallace                                         ##
+##                                                                       ##
+## James Liley and Chris Wallace, 2020                                   ##
+## Correspondence: JL, james.liley@igmm.ed.ac.uk                         ##
 ##                                                                       ##
 ###########################################################################
+#
 
 # This script will deterministically generate plots related to to the 
 #  transcriptome-wide association study analysis used in the motivating 

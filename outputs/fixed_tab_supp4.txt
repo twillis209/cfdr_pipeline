@@ -1,0 +1,12 @@
+Description & FDR(oracle) & TDR(oracle) \\
+Reference & 0.0953 (0.0925,0.0982) & 0.212 (0.21,0.214) \\
+No effects & 1 (1,1) & NaN (NaN,NA) \\
+Weak effects & 0.0873 (0.0752,0.0994) & 0.00904 (0.00846,0.00962) \\
+Large variance in effect sizes & 0.0945 (0.0927,0.0963) & 0.527 (0.524,0.529) \\
+Larger n & 0.0997 (0.0966,0.103) & 0.193 (0.191,0.195) \\
+Smaller n & 0.0787 (0.0765,0.0809) & 0.269 (0.266,0.271) \\
+No non-null shared hypotheses & 0.0975 (0.094,0.101) & 0.187 (0.185,0.19) \\
+All non-null hypotheses shared & 0.0805 (0.0783,0.0826) & 0.309 (0.307,0.312) \\
+Negative information & 0.058 (0.0572,0.0588) & 0.319 (0.318,0.32) \\
+Block correlation & 0.0933 (0.0901,0.0965) & 0.217 (0.211,0.223) \\
+Equicorrelation & 0.0955 (0.0905,0.101) & 0.209 (0.2,0.218) \\
