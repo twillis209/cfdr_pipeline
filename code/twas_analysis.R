@@ -365,6 +365,10 @@ header="D. L-reg. , p-val scale"
 plot(0,type="n",xlim=c(0,1e-7),ylim=c(0,1),xaxs="i",yaxs="i",main=header,xlab=xl,ylab=yl)
 
 polygon(c(0,0,xv1[bmin,xsub],0),c(0,1,yv1[xsub],0),col="lightblue",border=NA)
+for (i1 in c(300,375)) 
+  polygon(c(0,0,xv1[bmin,xsub[i1]],xv1[bmin,xsub[i1]]),
+          c(0,yv1[xsub[i1]],yv1[xsub[i1]],-1),
+          col=rgb(0.3,0.3,0.3,alpha=0.5))
 points(p[osub],q[osub],cex=0.3)
 
 points(p[h1],q[h1],col="blue",pch=5,cex=0.5)
@@ -372,13 +376,11 @@ points(p[h1],q[h1],col="blue",pch=5,cex=0.5)
 lines(xv1[bmin,xsub],yv1[xsub],col="blue",lwd=3,lty=2)
 
 legend("topright",c("Obs. P-vals", expression(paste("H"[0]," rejected")),
-       "Rej. region (L-reg.)"),bg="white",
-       col=c("black","blue","blue"),pch=c(1,5,NA),lty=c(NA,NA,2),lwd=c(NA,NA,3),
+       "Rej. region (L-reg.)","Example boxes"),bg="white",
+       col=c("black","blue","blue","black"),pch=c(1,5,NA,NA),lty=c(NA,NA,2,1),lwd=c(NA,NA,3,1),
        pt.cex=c(0.3,0.75,0.75))
 
 if (pdfx) dev.off()
-
-
 
 
 
