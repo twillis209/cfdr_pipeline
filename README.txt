@@ -27,6 +27,10 @@ long time to produce. For this reason, we include a script which
 reproudces a single run of the simulation, and several matrices 
 of results from previous runs.
 
+Prior to executing a run of the simulation, a folder should be 
+created in the same directory as this README called 'simulations'
+(lowercase).
+
 In all processes involving random number generation, we set a 
 random seed explicitly. For this reason, all results should match
 those in the text exactly.
@@ -38,7 +42,7 @@ contains.
 An additional README in ./data explains columns of the matrix of 
 simulation results.
 
-All code should be ran with the folder containing this readme as
+All code should be ran with the folder containing this README as
 the working directory. File paths are otherwise relative. The 
 bottom of this readme indicates code and package versions, which 
 for full reproduction should be matched exactly.
