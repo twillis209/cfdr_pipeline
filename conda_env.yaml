@@ -1,0 +1,12 @@
+name: cfdr_pipeline
+channels:
+- conda-forge
+- bioconda
+- twillis209
+dependencies:
+- r-base >= 4.2.3
+- r-data.table >= 1.14.8
+- r-cfdr
+- r-rmarkdown
+- r-plotrix
+- r-latex2exp
